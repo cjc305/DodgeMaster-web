@@ -1,0 +1,9 @@
+# DodgeMaster — Crealize Studio
+# Per Google official spec (https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+# Strictly 4 fields only (User-agent / Allow / Disallow / Sitemap). No Feed-*, Custom-*, or
+# self-invented directives — those reduce Google trust score (feedback_seo_robots_txt.md).
+
+User-agent: *
+Allow: /
+
+Sitemap: https://cjc305.github.io/DodgeMaster-web/sitemap.xml
